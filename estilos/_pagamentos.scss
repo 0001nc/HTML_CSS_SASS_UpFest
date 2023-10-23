@@ -1,0 +1,1452 @@
+
+.mensagem{
+  width: 85vw;
+  height: 2.93rem;
+  border-radius: 3rem;
+
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  background-color: #323232;
+
+    .mensagem-imagem-pagamentos{
+      border-radius: 5rem;
+      background: url(/assets/icons/info_circle.svg);
+      width: 1.5rem;
+      height: 1.5rem;
+
+      position: absolute;
+      left: 1.2rem;
+
+    }
+
+    .mensagem-titulo{
+      color: #ff9900;
+      font-size: 0.81rem;
+      font-weight: 300;
+
+      position: absolute;
+      left: 3.2rem;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* FAVORITOS */
+/* FAVORITO 1 - - - - - - - - - */
+.favoritos{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  .favoritos-titulo{
+    color: #e6e6e6;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .favorito1-imagem{
+    padding: 2.8rem 2.8rem;
+    border-top-left-radius: 0.93rem;
+    border-bottom-left-radius: 0.93rem;
+
+    background: url(/assets/images/sonar_24.jpg);
+    filter: brightness(0.8);
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    left: 0;
+
+  }
+
+  .info{
+    position: absolute;
+    left: 7rem;
+
+    .favorito1-titulo{
+      color: #e6e6e6;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.52rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .favorito1-data{
+      color: #F29544;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .favorito1-morada{
+      color: #757575;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+  }
+
+}
+
+.favorito1-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .coracao1-box{
+      position: absolute;
+      right: 2rem;
+      bottom: 1.4rem;
+      width: 1.9rem;
+      height: 2rem;
+      border-radius: 1rem;
+
+      background-color: #0d0d0d;
+    }
+
+    .favorito1-coracao{
+      position: absolute;
+      right: 2.43rem;
+      bottom: 1.9rem;
+      padding: 0.43rem 0.5rem;
+
+      color: #e6e6e6;
+      font-size: 0.8rem;
+
+      background: url(/assets/icons/heart_full.svg);
+
+
+    }
+}
+
+
+
+
+
+
+
+/* FAVORITO 2 */
+.favorito2-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .favorito2-imagem{
+    padding: 2.8rem 2.8rem;
+    border-top-left-radius: 0.93rem;
+    border-bottom-left-radius: 0.93rem;
+
+    background: url(/assets/images/tomorrowland.jpg);
+    filter: brightness(0.8);
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    left: 0;
+  }
+
+  .info{
+    position: absolute;
+    left: 7rem;
+
+    .favorito2-titulo{
+      color: #e6e6e6;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.52rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .favorito2-data{
+      color: #F29544;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .favorito2-morada{
+      color: #757575;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+  }
+
+  .coracao3-box{
+    position: absolute;
+    right: 2rem;
+    bottom: 1.4rem;
+    width: 1.9rem;
+    height: 2rem;
+    border-radius: 1rem;
+
+    background-color: #0d0d0d;
+
+  }
+
+  .favorito2-coracao{
+    position: absolute;
+    right: 2.43rem;
+    bottom: 1.9rem;
+    padding: 0.43rem 0.5rem;
+
+    color: #e6e6e6;
+    font-size: 0.8rem;
+
+    background: url(/assets/icons/heart_full.svg);
+
+  }
+
+}
+
+
+
+
+
+
+
+/* FAVORITO 3 */
+.favorito3-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .favorito3-imagem{
+    padding: 2.8rem 2.8rem;
+    border-top-left-radius: 0.93rem;
+    border-bottom-left-radius: 0.93rem;
+
+    background: url(/assets/images/amelie.jpg);
+    filter: brightness(0.8);
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    left: 0;
+
+  }
+
+  .info{
+    position: absolute;
+    left: 7rem;
+
+    .favorito3-titulo{
+      color: #e6e6e6;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.52rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .favorito3-data{
+      color: #F29544;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .concerto3-morada{
+      color: #e6e6e6;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+  }
+
+  .coracao4-box{
+    position: absolute;
+    right: 2rem;
+    bottom: 1.4rem;
+    width: 1.9rem;
+    height: 2rem;
+    border-radius: 1rem;
+
+    background-color: #0a0a0a;
+
+  }
+
+  .favorito3-coracao{
+    position: absolute;
+    right: 2.43rem;
+    bottom: 1.9rem;
+    padding: 0.43rem 0.5rem;
+
+    color: #e6e6e6;
+    font-size: 0.8rem;
+
+    background: url(/assets/icons/heart_full.svg);
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SETA - - - - - - - - - */
+.seta{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+
+  position : relative;
+
+}
+
+.seta-info{
+  position: relative;
+  width: 85vw;
+  height: 2.78rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bilhete-box{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #323232;
+    border-radius: 2.81rem;
+    filter: brightness(0.5);
+
+    position: absolute;
+    z-index: 1;
+  }
+
+  .bilhete-icon{
+    padding: 0.55rem 0.63rem;
+    background: url(/assets/icons/arrow_right.svg);
+
+    filter: brightness(1);
+
+    position: absolute;
+    z-index: 2;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* PAGAMENTOS PENDENTES - - - - - - - - - */
+.pendentes{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  position : relative;
+
+  .pendentes-titulo{
+    color: #e6e6e6;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+.pendente1-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+    .bilhete-box{
+      padding: 2.8rem 2.8rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      left: 0;
+
+    }
+
+    .bilhete-icon-pendente{
+
+      background: url(/assets/icons/card.svg);
+      width: 2.8rem;
+      height: 2.2rem;
+      filter: brightness(1);
+
+
+      position: absolute;
+      left: 1.3rem;
+
+    }
+
+    .pendente1-label{
+    position: absolute;
+    right: 1.93rem;
+    bottom: 1.7rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.4rem;
+    background-color: #121212;
+    color: #e6e6e6;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+}
+
+.pendente1-info > .info{
+  position: absolute;
+  left: 7rem;
+
+    .pendente1-titulo{
+      color: #e6e6e6;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.52rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .pendente1-status{
+      color: #F29544;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .pendente1-data{
+      color: #757575;
+      font-weight: 400;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+}
+
+
+
+
+
+
+
+/* ENTIDADE - - - - - - - - - */
+.entidade{
+  width: 85vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  position : relative;
+
+
+
+  .entidade-left{
+    position: relative;
+    width: 10rem;
+    height: 8.5rem;
+
+    border-radius: 1.81rem;
+
+    flex-grow: 1;
+
+  }
+
+  .entidade1-info{
+    position: relative;
+    width: 80vw;
+    height: 6.5rem;
+    background-color: #32323288;
+    border-radius: 1rem;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-grow: 3;
+
+
+    .info-entidade{
+
+      width: 15vw;
+      display: flex;
+      flex-direction: column;
+
+      .entidade1-titulo{
+        color: #E6e6e6;
+        font-weight: 700;
+        font-size: 0.81rem;
+        line-height: 1.52rem;
+
+
+        position: absolute;
+        left: 1.8rem;
+        bottom: 3.7rem;
+      }
+
+      .entidade1-status{
+        color: #E6e6e6;
+        font-weight: 700;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+
+        position: absolute;
+        left: 1.8rem;
+        bottom: 2.7rem;
+      }
+
+      .entidade1-data{
+        color: #E6e6e6;
+        font-weight: 700;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+
+
+        position: absolute;
+        left: 1.8rem;
+        bottom: 1.5rem;
+      }
+
+
+    }
+
+  }
+
+  .info-num{
+
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .num-titulo{
+      color: #757575;
+      font-weight: 400;
+      font-size: 0.81rem;
+      line-height: 1.52rem;
+      text-align: right;
+
+
+      position: absolute;
+      right: 2rem;
+      bottom: 3.7rem;
+
+    }
+
+  .num-status{
+      color: #757575;
+      font-weight: 400;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      text-align: right;
+
+      position: absolute;
+      right: 2rem;
+      bottom: 2.7rem;
+
+
+    }
+
+  .num-data{
+      color: #757575;
+      font-weight: 300;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      text-align: right;
+
+      position: absolute;
+      right: 2rem;
+      bottom: 1.5rem;
+    }
+
+}
+
+
+/* OUTROS PAGAMENTOS *
+/* BILHETE 1 - - - - - - - - - */
+.bilhetes{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+
+  .bilhetes-titulo{
+    color: #e6e6e6;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+.bilhete1-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .bilhete-box{
+      padding: 2.8rem 2.8rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      left: 0;
+
+    }
+
+    .info{
+      position: absolute;
+      left: 7rem;
+
+      .bilhete1-titulo{
+        color: #e6e6e6;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.52rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete1-status{
+        color: #00E109;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete1-data{
+        color: #757575;
+        font-weight: 400;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+
+
+  }
+
+    .bilhete1-label{
+      position: absolute;
+      right: 1.93rem;
+      bottom: 1.7rem;
+      padding: 0.5rem 0.7rem;
+      border-radius: 0.4rem;
+      background-color: #121212;
+      color: #e6e6e6;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    .bilhete-icon-bilhete1{
+      background: url(/assets/icons/card.svg);
+      width: 2.8rem;
+      height: 2.2rem;
+      filter: brightness(1);
+
+
+      position: absolute;
+      left: 1.3rem;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+/* BILHETE 2 - - - - - - - - -  CARREGAMENTO */
+
+.bilhete2-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .bilhete-box{
+      padding: 2.8rem 2.8rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      left: 0;
+
+    }
+
+    .bilhete-icon{
+
+
+    background: url(/assets/icons/card.svg);
+    width: 2.8rem;
+    height: 2.2rem;
+    filter: brightness(1);
+
+
+    position: absolute;
+    left: 1.3rem;
+
+  }
+
+    .info{
+      position: absolute;
+      left: 7rem;
+
+      .bilhete2-titulo{
+        color: #e6e6e6;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.52rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete2-status{
+        color: #00E109;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete2-data{
+        color: #757575;
+        font-weight: 400;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+    }
+
+    .bilhete2-label{
+    position: absolute;
+    right: 1.93rem;
+    bottom: 1.7rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.4rem;
+    background-color: #0a0a0a;
+    color: #e6e6e6;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+
+
+/* BILHETE 3 - - - - - - - - - */
+
+
+.bilhete3-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .bilhete-box{
+      padding: 2.8rem 2.8rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      left: 0;
+
+    }
+
+    .bilhete-icon{
+      background: url(/assets/icons/card.svg);
+      width: 2.8rem;
+      height: 2.2rem;
+      filter: brightness(1);
+
+
+      position: absolute;
+      left: 1.3rem;
+
+    }
+
+    .info{
+      position: absolute;
+      left: 7rem;
+
+      .bilhete3-titulo{
+        color: #e6e6e6;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.52rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete3-status{
+        color: #00E109;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete3-data{
+        color: #757575;
+        font-weight: 400;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+
+    }
+
+    .bilhete3-label{
+      position: absolute;
+      right: 1.93rem;
+      bottom: 1.7rem;
+      padding: 0.5rem 0.7rem;
+      border-radius: 0.4rem;
+      background-color: #0a0a0a;
+      color: #e6e6e6;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+}
+
+
+
+
+/* SETA - - - - - - - - - */
+.seta2{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+
+  position : relative;
+
+  margin-bottom: 2.8rem;
+}
+
+
+
+.seta2-info{
+  position: relative;
+  width: 85vw;
+  height: 2.78rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    .bilhete-box{
+      width: 2.5rem;
+      height: 2.5rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      z-index: 1;
+    }
+
+    .bilhete-icon{
+      padding: 0.55rem 0.63rem;
+      background: url(/assets/icons/arrow_right.svg);
+
+      filter: brightness(1);
+
+      position: absolute;
+      z-index: 2;
+
+    }
+}
+
+
+
+
+
+/* MENU */
+
+.menu-pagamentos{
+  position: fixed;                /* FIXA MENU ON BOTTOM */
+  bottom: 0;                      /* FIXA MENU ON BOTTOM */
+  width: 85vw;
+  background-color: #0d0d0d;
+  padding: 0.93rem;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  /* MENU ACTIVE */
+
+  .link1:hover{
+    filter: brightness(0.3);
+
+  }
+
+  .link2:hover{
+    filter: brightness(0.3);
+  }
+
+  .link2:hover{
+    filter: brightness(0.3);
+  }
+
+  .link3:hover{
+    filter: brightness(0.3);
+  }
+
+  .link4 a{
+    cursor: not-allowed;
+  }
+
+
+}
+
+.menu-background{
+  height: 3rem;
+  width: 85vw;
+  background-color:#0d0d0d;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px){
+
+  .container{
+    width: 100vw;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 601px){
+
+  .mensagem{
+    width: 75vw;
+  }
+
+  .favoritos{
+    width: 75vw;
+  }
+
+  .favorito1-info{
+    width: 75vw;
+  }
+
+  .favorito2-info{
+    width: 75vw;
+  }
+
+  .favorito3-info{
+    width: 75vw;
+  }
+
+  .bilhetes{
+    width: 75vw;
+  }
+
+  .bilhete1-info{
+    width: 75vw;
+  }
+
+  .bilhete2-info{
+    width: 75vw;
+  }
+
+  .bilhete3-info{
+    width: 75vw;
+  }
+
+  .seta{
+    width: 75vw;
+  }
+
+  .seta-info{
+    width: 75vw;
+  }
+
+  .pendentes{
+    width: 75vw;
+  }
+
+  .pendente1-info{
+    width: 75vw;
+  }
+
+  .entidade-left{
+    width: 10rem;
+  }
+
+
+  .entidade{
+    width: 75vw;
+  }
+
+  .bilhetes{
+    width: 75vw;
+  }
+
+  .seta2{
+    width: 75vw;
+  }
+
+  .menu-pagamentos{
+    width: 75vw;
+  }
+
+  .menu-background{
+    width: 75vw;
+  }
+
+
+
+}
+
+@media (min-width: 701px){
+
+  .mensagem{
+    width: 65vw;
+  }
+
+  .favoritos{
+    width: 65vw;
+  }
+
+  .favorito1-info{
+    width: 65vw;
+  }
+
+  .favorito2-info{
+    width: 65vw;
+  }
+
+  .favorito3-info{
+    width: 65vw;
+  }
+
+  .bilhetes{
+    width: 65vw;
+  }
+
+  .bilhete1-info{
+    width: 65vw;
+  }
+
+  .bilhete2-info{
+    width: 65vw;
+  }
+
+  .bilhete3-info{
+    width: 65vw;
+  }
+
+  .seta{
+    width: 65vw;
+  }
+
+  .seta-info{
+    width: 65vw;
+  }
+
+  .pendentes{
+    width: 65vw;
+  }
+
+  .pendente1-info{
+    width: 65vw;
+  }
+
+  .entidade-left{
+    width: 10rem;
+  }
+  .entidade{
+    width: 65vw;
+  }
+
+  .bilhetes{
+    width: 65vw;
+  }
+
+  .seta2{
+    width: 65vw;
+  }
+
+  .menu-pagamentos{
+    width: 65vw;
+  }
+
+  .menu-background{
+    width: 65vw;
+  }
+
+
+
+}
+
+@media (min-width: 800px){
+
+  .mensagem{
+    width: 55vw;
+  }
+
+  .favoritos{
+    width: 55vw;
+  }
+
+  .favorito1-info{
+    width: 55vw;
+  }
+
+  .favorito2-info{
+    width: 55vw;
+  }
+
+  .favorito3-info{
+    width: 55vw;
+  }
+
+  .bilhetes{
+    width: 55vw;
+  }
+
+  .bilhete1-info{
+    width: 55vw;
+  }
+
+  .bilhete2-info{
+    width: 55vw;
+  }
+
+  .bilhete3-info{
+    width: 55vw;
+  }
+
+  .seta{
+    width: 55vw;
+  }
+
+  .seta-info{
+    width: 55vw;
+  }
+
+  .pendentes{
+    width: 55vw;
+  }
+
+  .pendente1-info{
+    width: 55vw;
+  }
+
+  .entidade-left{
+    width: 15rem;
+  }
+  .entidade{
+    width: 55vw;
+  }
+
+  .bilhetes{
+    width: 55vw;
+  }
+
+  .seta2{
+    width: 55vw;
+  }
+
+  .menu-pagamentos{
+    width: 55vw;
+  }
+
+  .menu-background{
+    width: 55vw;
+  }
+
+
+
+}
+
+@media (min-width: 900px){
+
+  .mensagem{
+    width: 45vw;
+  }
+
+  .favoritos{
+    width: 45vw;
+  }
+
+  .favorito1-info{
+    width: 45vw;
+  }
+
+  .favorito2-info{
+    width: 45vw;
+  }
+
+  .favorito3-info{
+    width: 45vw;
+  }
+
+  .bilhetes{
+    width: 45vw;
+  }
+
+  .bilhete1-info{
+    width: 45vw;
+  }
+
+  .bilhete2-info{
+    width: 45vw;
+  }
+
+  .bilhete3-info{
+    width: 45vw;
+  }
+
+  .seta{
+    width: 45vw;
+  }
+
+  .seta-info{
+    width: 45vw;
+  }
+
+  .pendentes{
+    width: 45vw;
+  }
+
+  .pendente1-info{
+    width: 45vw;
+  }
+
+
+  .entidade-left{
+    width: 20rem;
+  }
+  .entidade{
+    width: 45vw;
+  }
+
+  .bilhetes{
+    width: 45vw;
+  }
+
+  .seta2{
+    width: 45vw;
+  }
+
+  .menu-pagamentos{
+    width: 45vw;
+  }
+
+  .menu-background{
+    width: 45vw;
+  }
+
+
+}
+
+@media (min-width: 1000px){
+
+  .mensagem{
+    width: 35vw;
+  }
+
+  .favoritos{
+    width: 35vw;
+  }
+
+  .favorito1-info{
+    width: 35vw;
+  }
+
+  .favorito2-info{
+    width: 35vw;
+  }
+
+  .favorito3-info{
+    width: 35vw;
+  }
+
+  .bilhetes{
+    width: 35vw;
+  }
+
+  .bilhete1-info{
+    width: 35vw;
+  }
+
+  .bilhete2-info{
+    width: 35vw;
+  }
+
+  .bilhete3-info{
+    width: 35vw;
+  }
+
+  .seta{
+    width: 35vw;
+  }
+
+  .seta-info{
+    width: 35vw;
+  }
+
+  .pendentes{
+    width: 35vw;
+  }
+
+  .pendente1-info{
+    width: 35vw;
+  }
+
+  .entidade{
+    width: 35vw;
+  }
+
+  .bilhetes{
+    width: 35vw;
+  }
+
+  .seta2{
+    width: 35vw;
+  }
+
+  .menu-pagamentos{
+    width: 35vw;
+  }
+
+  .menu-background{
+    width: 35vw;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

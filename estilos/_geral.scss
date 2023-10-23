@@ -1,0 +1,52 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body, html {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+
+}
+
+body{
+  background-color: #0d0d0d;
+  margin: 0 0 55px 0;
+}
+
+/* FAZ COM QUE NENHUMA IMAGEM SAIA DO ESPAÇO TOTAL DA PÁGINA */
+img{
+  width: 100%;
+}
+
+/* COLOCA OS LINKS A PRETO */
+a{
+  color: black;
+}
+
+
+
+/* CONTAINER */
+
+.container{
+   background-color: #0d0d0d;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+
+
+

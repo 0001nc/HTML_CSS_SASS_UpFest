@@ -1,0 +1,1083 @@
+
+
+/* APRESENTAÇÃO */
+.apresentacao-pesquisa{
+  position: relative;
+  margin-top: 2rem;
+}
+
+.apresentacao-pesquisa-imagem{
+  background: url(/assets/images/somnii_23.jpg);
+  filter: brightness(0.6);
+  background-position: center;
+  background-size: auto;
+  width: 85vw;
+  height: 30vh;
+  min-width: 24.3rem;
+  border-radius: 1.87rem;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.coracao1-pesquisa > .coracao1-pesquisa-box{
+  position: absolute;
+  right: 1.93rem;
+  bottom: 0.9rem;
+  width: 1.9rem;
+  height: 2rem;
+  border-radius: 1rem;
+
+  background-color: #000000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.coracao1-pesquisa > .coracao1-pesquisa-box:hover{
+  background-color: red;
+}
+
+.apresentacao-pesquisa-coracao{
+  position: absolute;
+  right: 2.43rem;
+  bottom: 1.4rem;
+  padding: 0.5rem 0.5rem;
+
+  color: #e6e6e6;
+  font-size: 0.8rem;
+
+  background: url(/assets/icons/heart_open.svg);
+
+}
+
+.apresentacao-pesquisa-info{
+  width: 85vw;
+  margin-top: 1rem;
+
+    .apresentacao-pesquisa-titulo{
+      color: #e6e6e6;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.51rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .apresentacao-pesquisa-data{
+      color: #F29544;
+      font-weight: 400;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .apresentacao-pesquisa-morada{
+      color: #757575;
+      font-weight: 400;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+    }
+
+}
+
+
+
+/* LINHA */
+.linha{
+  width: 85vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  border: none;
+  font-size: 1px;
+  color: #a0a0a0;
+  filter: brightness(0.4);
+
+
+}
+
+
+
+/* CONCERTOS */
+/* CONCERTO 1 - - - - - - - - - */
+.concertos{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.concertos-titulo{
+  color: #e6e6e6;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.concerto1-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.concerto1-imagem{
+  padding: 2.8rem 2.8rem;
+  border-radius: 2.81rem;
+  background: url(/assets/images/timmy.jpg);
+  filter: brightness(0.8);
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+  left: 0;
+
+}
+
+.coracao2-box{
+  position: absolute;
+  right: 2rem;
+  bottom: 1.4rem;
+  width: 1.9rem;
+  height: 2rem;
+  border-radius: 1rem;
+
+  background-color: #000000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.coracao2-box:hover{
+  background-color: red;
+}
+
+.concerto1-coracao{
+  position: absolute;
+  right: 2.43rem;
+  bottom: 1.9rem;
+  padding: 0.5rem 0.5rem;
+
+  color: #e6e6e6;
+  font-size: 0.8rem;
+
+  background: url(/assets/icons/heart_open.svg);
+
+}
+
+.info{
+  position: absolute;
+  left: 7rem;
+
+    .concerto1-titulo{
+      color: #e6e6e6;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.52rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .concerto1-data{
+      color: #F29544;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .concerto1-morada{
+      color: #757575;
+      font-size: 0.81rem;
+      line-height: 0.98rem;
+      margin-bottom: 0.2rem;
+    }
+
+}
+
+
+
+
+
+/* CONCERTO 2 */
+.concerto2-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.concerto2-imagem{
+  padding: 2.8rem 2.8rem;
+  border-radius: 2.81rem;
+  background: url(/assets/images/oliver.jpg);
+  filter: brightness(0.8);
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+  left: 0;
+
+}
+
+.coracao3-box{
+  position: absolute;
+  right: 2rem;
+  bottom: 1.4rem;
+  width: 1.9rem;
+  height: 2rem;
+  border-radius: 1rem;
+
+  background-color: #000000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.coracao3-box:hover{
+  background-color: red;
+}
+
+.concerto2-coracao{
+  position: absolute;
+  right: 2.43rem;
+  bottom: 1.9rem;
+  padding: 0.5rem 0.5rem;
+
+  color: #e6e6e6;
+  font-size: 0.8rem;
+
+  background: url(/assets/icons/heart_open.svg);
+
+}
+
+.info{
+  position: absolute;
+  left: 7rem;
+
+  .concerto2-titulo{
+    color: #e6e6e6;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.52rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .concerto2-data{
+    color: #F29544;
+    font-size: 0.81rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .concerto2-morada{
+    color: #757575;
+    font-size: 0.81rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+  }
+
+}
+
+
+
+
+/* CONCERTO 3 */
+.concerto3-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.concerto3-imagem{
+  padding: 2.8rem 2.8rem;
+  border-radius: 2.81rem;
+  background: url(/assets/images/blasterjaxx.jpg);
+  filter: brightness(0.8);
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+  left: 0;
+
+}
+
+.coracao4-box{
+  position: absolute;
+  right: 2rem;
+  bottom: 1.4rem;
+  width: 1.9rem;
+  height: 2rem;
+  border-radius: 1rem;
+
+  background-color: #000000;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.coracao4-box:hover{
+  background-color: red;
+}
+
+.concerto3-coracao{
+  position: absolute;
+  right: 2.43rem;
+  bottom: 1.9rem;
+  padding: 0.5rem 0.5rem;
+
+  color: #e6e6e6;
+  font-size: 0.8rem;
+
+  background: url(/assets/icons/heart_open.svg);
+
+}
+
+.info{
+  position: absolute;
+  left: 7rem;
+
+  .concerto3-titulo{
+    color: #e6e6e6;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.52rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .concerto3-data{
+    color: #F29544;
+    font-size: 0.81rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .concerto3-moradas{
+    color: #757575;
+    font-size: 0.81rem;
+    line-height: 0.98rem;
+    margin-bottom: 0.2rem;
+  }
+}
+
+
+/* INFORMAÇÔES */
+.informacoes{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+
+    p{
+
+      font-weight: 300;
+      font-size: 0.8rem;
+      line-height: 1.21;
+      color: #757575;
+    }
+}
+
+.informacoes-titulo{
+  color: #e6e6e6;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+
+
+
+/* BILHETES*
+/* BILHETE 1 - - - - - - - - - */
+
+.bilhetes{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.8rem;
+
+    .bilhetes-titulo{
+      color: #e6e6e6;
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-top: -1rem;
+    }
+
+  }
+
+.bilhete1-info {
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .bilhete-box{
+      padding: 2.8rem 2.8rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      left: 0;
+    }
+
+    .bilhete-icon-bilhetes{
+      padding: 1.8rem 1.8rem;
+      border-radius: 2.81rem;
+      background: url(/assets/icons/ticket.svg);
+      filter: brightness(0.5);
+      background-position: center;
+      background-size: cover;
+
+      position: absolute;
+      left: 1rem;
+    }
+
+    .info{
+      position: absolute;
+      left: 7rem;
+
+        .bilhete1-titulo{
+          color: #e6e6e6;
+          font-weight: 700;
+          font-size: 1.25rem;
+          line-height: 1.52rem;
+          margin-bottom: 0.2rem;
+        }
+
+        .bilhete1-datas{
+          color: #757575;
+          font-size: 0.81rem;
+          line-height: 0.98rem;
+          margin-bottom: 0.2rem;
+        }
+
+    }
+
+    .bilhete1-label{
+      position: absolute;
+      right: 1.93rem;
+      bottom: 1.7rem;
+      padding: 0.5rem 0.7rem;
+      border-radius: 0.4rem;
+      background-color: #121212;
+      color: #757575;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+}
+
+
+
+
+
+
+/* BILHETE 2 - - - - - - - - - */
+
+.bilhete2-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .bilhete-box{
+      padding: 2.8rem 2.8rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      left: 0;
+
+    }
+
+    .bilhete-icon-bilhetes{
+      padding: 1.8rem 1.8rem;
+      border-radius: 2.81rem;
+      background: url(/assets/icons/ticket.svg);
+
+      background-position: center;
+      background-size: cover;
+
+      position: absolute;
+      left: 1rem;
+
+    }
+
+    .info{
+      position: absolute;
+      left: 7rem;
+
+      .bilhete2-titulo{
+        color: #e6e6e6;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.52rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete2-datas{
+        color: #F29544;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+    }
+
+    .bilhete2-label{
+      position: absolute;
+      right: 1.93rem;
+      bottom: 1.7rem;
+      padding: 0.5rem 0.7rem;
+      border-radius: 0.4rem;
+      background-color: #0c0c0c;
+      color: #e6e6e6;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+}
+
+
+
+
+
+/* BILHETE 3 - - - - - - - - - */
+
+.bilhete3-info{
+  margin-top: 1rem;
+  position: relative;
+  width: 85vw;
+  height: 5.62rem;
+
+  background-color: #32323288;
+  border-radius: 3.81rem;
+  background-image: linear-gradient(to right, black, transparent);
+
+  color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .bilhete-box{
+      padding: 2.8rem 2.8rem;
+      background: #323232;
+      border-radius: 2.81rem;
+      filter: brightness(0.5);
+
+      position: absolute;
+      left: 0;
+
+    }
+
+    .bilhete-icon-bilhetes {
+      padding: 1.8rem 1.8rem;
+      border-radius: 2.81rem;
+      background: url(/assets/icons/ticket.svg);
+
+      background-position: center;
+      background-size: cover;
+
+      position: absolute;
+      left: 1rem;
+    }
+
+    .info{
+      position: absolute;
+      left: 7rem;
+
+      .bilhete3-titulo{
+        color: #e6e6e6;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.52rem;
+        margin-bottom: 0.2rem;
+      }
+
+      .bilhete3-datas{
+        color: #F29544;
+        font-size: 0.81rem;
+        line-height: 0.98rem;
+        margin-bottom: 0.2rem;
+      }
+    }
+
+    .bilhete3-label{
+      position: absolute;
+      right: 1.93rem;
+      bottom: 1.7rem;
+      padding: 0.5rem 0.7rem;
+      border-radius: 0.4rem;
+      background-color: #0c0c0c;
+      color: #e6e6e6;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MENU */
+.menu{
+  position: fixed;
+  bottom: 0;
+  width: 85vw;
+  background-color: #0d0d0d;
+  padding: 0.93rem;
+
+  display: flex;
+  justify-content: space-evenly;
+
+
+  /* MENU ACTIVE */
+
+  .link1:hover{
+    filter: brightness(0.3);
+
+  }
+
+  .link2:hover{
+    filter: brightness(0.3);
+  }
+
+  .link2:hover{
+    filter: brightness(0.3);
+  }
+
+  .link3:hover{
+    filter: brightness(0.3);
+  }
+
+  .link4 a{
+    cursor: not-allowed;
+  }
+
+
+}
+
+.menu-background{
+  height: 3rem;
+  width: 85vw;
+  background-color:#0d0d0d;
+  margin-top: 4rem;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px){
+
+  .container{
+    width: 100vw;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 601px){
+
+  .apresentacao-pesquisa-imagem{
+    width: 75vw;
+  }
+
+  .apresentacao-pesquisa-info{
+    width: 75vw;
+  }
+
+  .linha{
+    width: 75vw;
+  }
+
+  .concertos{
+    width: 75vw;
+  }
+
+  .concerto1-info{
+    width: 75vw;
+  }
+
+  .concerto2-info{
+    width: 75vw;
+  }
+
+  .concerto3-info{
+    width: 75vw;
+  }
+
+  .informacoes{
+    width: 75vw;
+  }
+
+  .bilhetes{
+    width: 75vw;
+  }
+
+  .bilhete1-info{
+    width: 75vw;
+  }
+
+  .bilhete2-info{
+    width: 75vw;
+  }
+
+  .bilhete3-info{
+    width: 75vw;
+  }
+
+  .menu{
+    width: 75vw;
+  }
+
+  .menu-background{
+    width: 75vw;
+  }
+
+
+
+}
+
+@media (min-width: 768px){
+
+  .apresentacao-pesquisa-imagem{
+    width: 65vw;
+  }
+
+  .apresentacao-pesquisa-info{
+    width: 65vw;
+  }
+
+  .linha{
+    width: 65vw;
+  }
+
+  .concertos{
+    width: 65vw;
+  }
+
+  .concerto1-info{
+    width: 65vw;
+  }
+
+  .concerto2-info{
+    width: 65vw;
+  }
+
+  .concerto3-info{
+    width: 65vw;
+  }
+
+  .informacoes{
+    width: 65vw;
+  }
+
+  .bilhetes{
+    width: 65vw;
+  }
+
+  .bilhete1-info{
+    width: 65vw;
+  }
+
+  .bilhete2-info{
+    width: 65vw;
+  }
+
+  .bilhete3-info{
+    width: 65vw;
+  }
+
+  .menu{
+    width: 65vw;
+  }
+
+  .menu-background{
+    width: 65vw;
+  }
+
+
+
+
+}
+
+@media (min-width: 800px){
+
+  .apresentacao-pesquisa-imagem{
+    width: 55vw;
+  }
+
+  .apresentacao-pesquisa-info{
+    width: 55vw;
+  }
+
+  .linha{
+    width: 55vw;
+  }
+
+  .concertos{
+    width: 55vw;
+  }
+
+  .concerto1-info{
+    width: 55vw;
+  }
+
+  .concerto2-info{
+    width: 55vw;
+  }
+
+  .concerto3-info{
+    width: 55vw;
+  }
+
+  .informacoes{
+    width: 55vw;
+  }
+
+  .bilhetes{
+    width: 55vw;
+  }
+
+  .bilhete1-info{
+    width: 55vw;
+  }
+
+  .bilhete2-info{
+    width: 55vw;
+  }
+
+  .bilhete3-info{
+    width: 55vw;
+  }
+
+  .menu{
+    width: 55vw;
+  }
+
+  .menu-background{
+    width: 55vw;
+  }
+
+}
+
+@media (min-width: 900px){
+
+
+  .apresentacao-pesquisa-imagem{
+    width: 45vw;
+  }
+
+  .apresentacao-pesquisa-info{
+    width: 45vw;
+  }
+
+  .linha{
+    width: 45vw;
+  }
+
+  .concertos{
+    width: 45vw;
+  }
+
+  .concerto1-info{
+    width: 45vw;
+  }
+
+  .concerto2-info{
+    width: 45vw;
+  }
+
+  .concerto3-info{
+    width: 45vw;
+  }
+
+  .informacoes{
+    width: 45vw;
+  }
+
+  .bilhetes{
+    width: 45vw;
+  }
+
+  .bilhete1-info{
+    width: 45vw;
+  }
+
+  .bilhete2-info{
+    width: 45vw;
+  }
+
+  .bilhete3-info{
+    width: 45vw;
+  }
+
+  .menu{
+    width: 45vw;
+  }
+
+  .menu-background{
+    width: 45vw;
+  }
+
+
+
+}
+
+@media (min-width: 1000px){
+
+
+  .apresentacao-pesquisa-imagem{
+    width: 35vw;
+  }
+
+  .apresentacao-pesquisa-info{
+    width: 35vw;
+  }
+
+  .linha{
+    width: 35vw;
+  }
+
+  .concertos{
+    width: 35vw;
+  }
+
+  .concerto1-info{
+    width: 35vw;
+  }
+
+  .concerto2-info{
+    width: 35vw;
+  }
+
+  .concerto3-info{
+    width: 35vw;
+  }
+
+  .informacoes{
+    width: 35vw;
+  }
+
+  .bilhetes{
+    width: 35vw;
+  }
+
+  .bilhete1-info{
+    width: 35vw;
+  }
+
+  .bilhete2-info{
+    width: 35vw;
+  }
+
+  .bilhete3-info{
+    width: 35vw;
+  }
+
+  .menu{
+    width: 35vw;
+  }
+
+  .menu-background{
+    width: 35vw;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
